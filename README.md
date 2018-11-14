@@ -1,0 +1,1 @@
+# appshake-package-cloudinary-vue
