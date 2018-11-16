@@ -1,1 +1,2 @@
-# appshake-package-cloudinary-vue
+# appshake-template-vue
+appshake template vue
