@@ -1,0 +1,17 @@
+{
+  "dependencies": {},
+  "prompts": [
+    {
+      "text": "What is Cloudinary cloud name?",
+      "action": "appshake set VUE_APP_CLOUDINARY_NAME $answer"
+    },
+    {
+      "text": "What is Cloudinary upload preset?",
+      "action": "appshake set VUE_APP_CLOUDINARY_UPLOAD_PRESET $answer"
+    },
+    {
+      "text": "What is Cloudinary folder name?",
+      "action": "appshake set VUE_APP_CLOUDINARY_FOLDER $answer"
+    }
+  ]
+}
