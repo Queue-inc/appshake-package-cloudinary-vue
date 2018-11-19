@@ -2,16 +2,23 @@
   "dependencies": {},
   "prompts": [
     {
+      "type": "Question",
       "text": "What is Cloudinary cloud name?",
-      "action": "appshake set VUE_APP_CLOUDINARY_NAME $answer"
+      "key": "cloudName"
     },
     {
+      "type": "Question",
       "text": "What is Cloudinary upload preset?",
-      "action": "appshake set VUE_APP_CLOUDINARY_UPLOAD_PRESET $answer"
+      "key": "uploadPreset"
     },
     {
+      "type": "Question",
       "text": "What is Cloudinary folder name?",
-      "action": "appshake set VUE_APP_CLOUDINARY_FOLDER $answer"
+      "key": "folderName"
+    },
+    {
+      "type": "Action",
+      "command": "appshake set VUE_APP_CLOUDINARY_NAME $cloudName && appshake set VUE_APP_CLOUDINARY_UPLOAD_PRESET $uploadPreset && appshake set VUE_APP_CLOUDINARY_FOLDER $folderName"
     }
   ]
 }
